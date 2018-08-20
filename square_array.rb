@@ -2,6 +2,6 @@ def square_array(array)
   squared = []
   array.each do { | numbers | squared << numbers ** 2}
     numbers ** numbers
-  return array
+  return squared
   end
 end
